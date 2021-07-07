@@ -1,5 +1,9 @@
 package code;
 
+import code.controller.Controller;
+import code.model.Model;
+import code.view.View;
+
 /**
  * @author Hrihorii Chyzhykov
  * @version 1.0
