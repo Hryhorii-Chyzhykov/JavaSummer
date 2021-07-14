@@ -4,14 +4,14 @@ package code.controller;
  *
  */
 
-public class Notebook {
+public class NotebookInput {
    private String surname;
    private String name;
    private String abbreviatedName;
    private String nick;
 
 
-    public Notebook(String surname, String name, String nick) {
+    public NotebookInput(String surname, String name, String nick) {
         this.surname = surname;
         this.name = name;
         this.abbreviatedName = this.surname + " " + this.name.charAt(0) + ".";
@@ -35,11 +35,11 @@ public class Notebook {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Notebook notebook = (Notebook) o;
+        NotebookInput notebookInput = (NotebookInput) o;
 
-        if (!surname.equals(notebook.surname)) return false;
-        if (!name.equals(notebook.name)) return false;
-        return nick.equals(notebook.nick);
+        if (!surname.equals(notebookInput.surname)) return false;
+        if (!name.equals(notebookInput.name)) return false;
+        return nick.equals(notebookInput.nick);
     }
 
     @Override

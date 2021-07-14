@@ -14,8 +14,8 @@ public class ControllerUtilitys {
         this.sc = sc;
     }
 
-    public Notebook createAndFillNotebook (){
-        return new Notebook(
+    public NotebookInput createAndFillNotebook (){
+        return new NotebookInput(
                 inputData(view.bundle.getString("INPUT_SURNAME"), view.bundle.getString("SURNAME_PATTERN")),
                 inputData(view.bundle.getString("INPUT_NAME"), view.bundle.getString("NAME_PATTERN")),
                 inputData(view.bundle.getString("INPUT_NICK"), view.bundle.getString("NICK_PATTERN")));

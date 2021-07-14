@@ -9,15 +9,11 @@ import java.util.ResourceBundle;
 
 public class View {
 
-    //public static final String INPUT_NAME = "Input name";
-    //public static final String INPUT_SURNAME = "Input surname";
-    //public static final String INPUT_NICK = "Input your nickname";
-    //public static final String WRONG_INPUT = "Wrong input! Try again!";
 
     public static final ResourceBundle bundle =
             ResourceBundle.getBundle("messages",
-                    //new Locale("uk", "UA"));  // Ukrainian
-                    new Locale("en", "US"));        // English
+                    new Locale("uk", "UA"));  // Ukrainian
+                    //new Locale("en", "US"));        // English
 
     /**
      *
